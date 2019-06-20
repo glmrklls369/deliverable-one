@@ -1,0 +1,86 @@
+body {
+	/*background-color: black;*/
+	font-family: Fira Sans;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.me, .adopting {color:#FF4850;}
+
+ul {
+	list-style-type: none;
+	display:block;
+
+}	
+
+
+
+
+
+
+button {
+		padding:10px;
+		border-radius:15px;
+		background-color:#FF4850;
+		display: block;
+		width: 100%;
+	}
+		p {font-weight: 300;}
+		
+@media (min-width: 768px){
+
+		body {
+			background-image: url("bulldog.jpg");
+		}
+			button {
+				font-family: Fira Sans;
+				float: left;
+				padding: 10px 20px;
+				font-weight: 400;
+				color: white;
+				background-color:#FF4850;
+				border-radius: 15px;
+				border: none;
+				width: auto;
+				
+					-webkit-transition-duration: 0.3s;
+					transition-duration: 0.3s;
+					
+				}
+
+				button:hover {padding: 10px;
+				margin:4px 2px;
+				background-color: #CCC; /*grey*/
+			}
+			#navBar { 
+				display: flex;
+				justify-content: space-between;
+				
+			}
+			
+					
+				#navBar ul {
+				
+						list-style-type: none;
+						display: flex;
+						justify-content: space-between;
+						float:right;
+						background:none;
+						color:#88898B;
+						font-weight:600;	
+	
+			
+				}
+				
+				#navBar li {
+					display: flex;
+					text-decoration: none;
+					text-align: center;
+					padding-left: 10px;
+					
+				}
+				
+				#midSec {
+					background: "bulldog.jpg" no-repeat center fixed;
+					padding-top: 100px;
+				}
+		}
